@@ -1,4 +1,5 @@
 module GemRbsCollectionSample
   VERSION: String
-  # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+  def self?.greet_with_date: (String messsage) -> String
 end
